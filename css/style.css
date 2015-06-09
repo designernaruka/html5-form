@@ -1,0 +1,68 @@
+*{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.htmform{
+  border: solid 1px #999999;
+  margin: 20px auto;
+  width: 960px;
+}
+.form-heading{
+  background-color: #999999;
+  color: #fff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.form{
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 520px;
+}
+.label{
+  color: #333333;
+  display: inline-block;
+  margin-top: 5px;
+  padding-right: 20px;
+  text-align: right;
+  vertical-align: top;
+  width: 100px;
+}
+.text-input{
+  border:solid 1px #999999;
+  display: inline-block;
+  font-weight: normal;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  padding: 0 5px;
+  vertical-align: middle;
+  width: 380px;
+}
+.text-input:focus{
+  outline-color: #f2cb80;
+}
+.btn-submit {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: -moz-linear-gradient(top,  rgb(241,241,241) 0%, rgb(207,207,207) 100%); /* FF3.6+ */
+  background: -ms-linear-gradient(top,  rgb(241,241,241) 0%,rgb(207,207,207) 100%); /* IE10+ */
+  background: -o-linear-gradient(top,  rgb(241,241,241) 0%,rgb(207,207,207) 100%); /* Opera 11.10+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(241,241,241)), color-stop(100%,rgb(207,207,207))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(241,241,241) 0%,rgb(207,207,207) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  rgb(241,241,241) 0%,rgb(207,207,207) 100%); /* W3C */
+  background: rgb(241,241,241); /* Old browsers */
+  border: solid 1px #707070;
+  font-size: 13px;
+  font-weight: normal;
+  outline: none;
+  padding: 2px 5px;
+}
